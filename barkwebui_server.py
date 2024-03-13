@@ -11,7 +11,7 @@ generation_task = None
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    return render_template('index.html')
+    return render_template('index2.html')
 
 @app.route('/static/output/<path:filename>')
 def serve_static(filename):
